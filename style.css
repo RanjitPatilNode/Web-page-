@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 10px; */
+    padding: 10px;
+    background-color: black;
+    height: 100px;
+
+}
+
+.navbar-right ul li {
+    list-style: none;
+}
+
+.nav-right ul {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.navbar-center {
+    height: 10vh;
+    width: 6vh;
+    margin-right: 80px;
+    /* list-style: none; */
+}
+
+.navbar-left ul {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.navbar-left ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0px;
+    list-style: none;
+    padding: 30px;
+    color: white;
+    font-size: large;
+    box-sizing: border-box;
+    font-weight: 800;
+}
+
+.navbar-center ul li img {
+    list-style: none;
+    height: 90px;
+    width: 200px;
+}
+
+/* body{ */
+/* display: flex;
+    align-items: center; */
+/* background-image: url(./jake-blucker-tMzCrBkM99Y-unsplash.jpg); */
+/* height: 100px;
+    width: 100%; */
+/* } */
+.main {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-1 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-1 img {
+    height: 85vh;
+    width: 50vw;
+    /* height: 100%; */
+}
+
+.main-2 img{
+    height: 45vh;
+    width: 50vw;
+}
+.main-2{
+    background-image: url("./jake-blucker-tMzCrBkM99Y-unsplash.jpg");
+}
+.sign{
+    /* background-color: rgb(107, 184, 252); */
+    color: black;
+    border-radius: 20px;
+    height: -1px;
+    margin-top: 10px;
+   
+}
+.main-2 h1{
+    color: white;
+    padding: 20px;
+}
+.main-2 p{
+    padding: 10px;
+}
